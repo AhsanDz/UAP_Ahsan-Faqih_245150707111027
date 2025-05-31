@@ -6,6 +6,7 @@ public class KalkulatorPabrik {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
+        System.out.println("===========================================");
         System.out.println("Kalkulator Pabrik Cetakan Donat Rumahan");
         System.out.println("Ahsan Faqih");
         System.out.println("245150707111027");
@@ -22,7 +23,7 @@ public class KalkulatorPabrik {
         Torus donatDenganLubang = new Torus(majorRadius, minorRadius);
         donatDenganLubang.printInfo();
         
-        System.out.println();
+        System.out.println("===========================================");
         
         System.out.println("Donat tanpa lubang");
         System.out.println("===========================================");
